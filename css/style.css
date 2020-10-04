@@ -191,6 +191,16 @@ background-repeat: no-repeat;
   border-bottom-color: var(--half-baked);
 }
 
+.passive-sorting a:hover {
+  color: var(--half-baked);
+}
+
+.passive-sorting a:focus {
+  color: var(--basic-black);
+  border-bottom: none;
+}
+
+
 /*search-result*/
 
 .search-result a,
