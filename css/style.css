@@ -74,12 +74,22 @@ color: rgba(0, 0, 0, 0.3);
   visibility: hidden;
 }
 
-.picture-block {
-background-color: var(--basic-white);
-background-image: url(*);
-background-position: center, 0 0;
+.background-photo {
+background-color: var(--basic-black);
+background-image: url(../img/background_photo.jpg);
+background-position: center;
 background-repeat: no-repeat;
+width: 1200px;
+height: 509px;
 }
+.background-images {
+  background-image: url(../img/background_photo_decor.svg);
+  width: 1200px;
+  height: 509px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 /*заголовок между верхним блоком с картинкой и списком преимуществ*/
 
@@ -142,6 +152,23 @@ background-repeat: no-repeat;
   background-repeat: repeat;
 }
 
+.icon-1 {
+  background-image: url(../img/icon-1.svg);
+  background-repeat: no-repeat;
+  height: 72px;
+}
+
+.icon-2 {
+  background-image: url(../img/icon-2.svg);
+  background-repeat: no-repeat;
+  height: 77px;
+}
+
+.icon-3 {
+  background-image: url(../img/icon-3.svg);
+  background-repeat: no-repeat;
+  height: 70px;
+}
 /*hotel search*/
 
 .hotel-search {
@@ -160,9 +187,15 @@ background-repeat: no-repeat;
   font-weight: 400;
 }
 
+/*filter*/
+
+.filter {
+background-image: url(../img/background_hotels.png);
+height: 217px;
+background-repeat: no-repeat;
+}
+
 /*sorting*/
-
-
 
 .sorting,
 .sorting h2 {
@@ -274,8 +307,30 @@ line-height: 26px;
 font-weight: 700;
 }
 
+.social li{
+  list-style: none;
+}
 .hotels-footer {
-  background-color: (--basic-white);
+  background-color: var(--basic-white);
+}
+
+.twitter {
+  background-image: url(../img/twitter.svg);
+}
+
+.facebook {
+  background-image: url(../img/facebook.svg);
+}
+
+.youtube {
+  background-image: url(../img/youtube.svg);
+}
+
+.square {
+  height: 48px;
+  width: 46px;
+  background-color: var(--half-baked);
+  background-repeat: no-repeat;
 }
 
 .footer-social a {
